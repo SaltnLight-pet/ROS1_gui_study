@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 
 import sys
 
-from my_gui.gui_module import MyPlugin
+from kw_gui.kw_module import KWPlugin
 from rqt_gui.main import Main
 
-plugin = 'my_gui'
+plugin = 'kw_gui'
 main = Main(filename=plugin)
 sys.exit(main.main(standalone=plugin))
